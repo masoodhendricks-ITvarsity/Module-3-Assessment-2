@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Recipe Book | Starters</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+<body>
+    <header>
+        <h1>Starters</h1>
+        <nav>
+           <a href="starters.html"><i class="fa fa-arrow-left" aria-hidden="true"></i></a>
+        </nav>
+    </header>
+    <div class="menu-00">
+        <img src="images/bruschetta.png" alt="Bruschetta">
+        <h2>Bruschetta</h2>
+        <p>Price: R22.00</p>
+        <p>Serving Size: 1 plate</p>
+        <p>A classic Italian appetizer made with grilled bread, garlic, tomatoes, olive oil, and basil.</p>
+        <form>
+            <h3>Extras</h3>
+            <ul>
+                <li><input type="checkbox" name="extra" value="extra_cheese"> Extra Cheese</li>
+                <li><input type="checkbox" name="extra" value="side_salad"> Side Salad</li>
+                <li><input type="checkbox" name="extra" value="extra_olives"> Extra Olives</li>
+            </ul>
+            <label for="notes">Additional Notes:</label>
+            <textarea id="notes" name="notes" rows="4" cols="50"></textarea>
+            <button type="submit" formaction="thank-you.html">Place Order</button>
+        </form>
+    </div>
+</body>
+</html>
